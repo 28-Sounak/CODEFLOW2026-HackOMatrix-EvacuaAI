@@ -1,71 +1,75 @@
-# SafeRoute AI
+# FinSight AI
 
-AI-powered disaster evacuation and rescue coordination system.
+AI-Powered Bank Statement Intelligence System
+
+---
 
 ## Overview
 
-SafeRoute AI is a smart disaster management platform that helps citizens and authorities during emergencies such as floods, wildfires, and earthquakes.
+FinSight AI is an intelligent financial analysis platform that analyzes bank statements and provides meaningful insights using AI and machine learning.
 
-The system uses AI/ML models to:
-- Predict disaster spread
-- Generate safe evacuation routes
-- Classify SOS requests
-- Coordinate rescue operations in real time
+The system can:
+- Extract transactions from bank statements
+- Categorize expenses automatically
+- Detect suspicious or unusual transactions
+- Generate financial health insights
+- Visualize spending patterns through an interactive dashboard
+
+---
 
 ## Features
 
-### Web Dashboard
-- Live disaster monitoring
-- Hazard heatmaps
-- Shelter management
-- Rescue coordination
-- SOS tracking
+### Dashboard
+- Expense analytics
+- Monthly spending overview
+- Financial health score
+- Interactive charts and insights
 
-### Mobile Application
-- Safe evacuation routes
-- Emergency SOS button
-- Offline emergency support
-- Nearby shelter finder
-- Real-time alerts
+### AI Features
+- Transaction categorization
+- Anomaly/Fraud detection
+- Smart financial recommendations
 
-## AI/ML Components
-
-- Disaster Spread Prediction Model
-- Smart Route Optimization
-- SOS Priority Classification
-
-### Technologies
-- Scikit-learn
-- PyTorch
-- DistilBERT
-- A* Pathfinding
-
-## Security Features
-
+### Security Features
 - JWT Authentication
-- Role-Based Access Control
 - AES Encryption
-- Secure APIs
-- Fake SOS Detection
+- Secure PDF upload validation
+- Role-based access control
+
+---
 
 ## Tech Stack
 
 | Layer | Technology |
 |---|---|
-| Frontend | React / Next.js |
-| Mobile | Flutter |
+| Frontend | React + Tailwind CSS |
 | Backend | FastAPI |
-| Database | PostgreSQL / Firebase |
-| AI/ML | Python, Scikit-learn, PyTorch |
-| Maps | Leaflet / Mapbox |
+| Database | PostgreSQL |
+| AI/ML | Python, Scikit-learn |
+| PDF Parsing | pdfplumber |
+| Charts | Recharts |
 
-## Future Scope
+---
 
-- Drone integration
-- Satellite monitoring
-- Voice-based emergency assistance
-- IoT-based disaster sensors
+## AI Models Used
 
-## Team Vision
+- TF-IDF + Logistic Regression
+- Isolation Forest
+- Financial Scoring Engine
 
-To build an intelligent and secure disaster-response platform capable of saving lives using AI-driven decision-making.
+---
+
+## Workflow
+
+```text
+Upload Statement
+       ↓
+Extract Transactions
+       ↓
+Categorize Expenses
+       ↓
+Detect Anomalies
+       ↓
+Generate Insights
+       ↓
+Display Dashboard
